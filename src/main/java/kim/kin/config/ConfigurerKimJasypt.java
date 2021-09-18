@@ -21,7 +21,7 @@ import static com.ulisesbocchio.jasyptspringboot.util.AsymmetricCryptography.Key
 
 @Configuration
 @EnableEncryptableProperties
-public class ConfigurerJasypt {
+public class ConfigurerKimJasypt {
 
     /**
      * @param args
