@@ -12,8 +12,6 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 
 import static com.ulisesbocchio.jasyptspringboot.util.AsymmetricCryptography.KeyFormat.PEM;
@@ -24,8 +22,8 @@ import static com.ulisesbocchio.jasyptspringboot.util.AsymmetricCryptography.Key
 public class ConfigurerKimJasypt {
 
     /**
-     * @param args
-     * @throws IOException
+     * @param args args
+     * @throws IOException IOException
      */
     public static void main(String[] args) throws IOException {
         String salt = "a2lua2lt";
